@@ -1,0 +1,7 @@
+.git
+.svn
+.DS_Store
+Thumbs.db
+node_modules
+*.zip
+languages/*.po~

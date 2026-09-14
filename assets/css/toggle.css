@@ -1,0 +1,31 @@
+.csps-toggle {
+	cursor: pointer;
+	font: inherit;
+}
+
+.csps-toggle-inline,
+.csps-toggle-widget {
+	background: transparent;
+	border: 0;
+	color: inherit;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.csps-toggle-float {
+	position: fixed;
+	right: 16px;
+	bottom: 96px;
+	z-index: 9998;
+	padding: 8px 12px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 999px;
+	background: #fff;
+	color: #222;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.csps-toggle-float:hover,
+.csps-toggle-float:focus {
+	background: #f4f4f4;
+}
